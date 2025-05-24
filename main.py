@@ -4,6 +4,11 @@ Created on Fri May 23 09:17:15 2025
 
 @author: Piyush Singh
 """
+import streamlit as st
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+st.set_option('client.showErrorDetails', True)
 
 import pickle
 import streamlit as st
